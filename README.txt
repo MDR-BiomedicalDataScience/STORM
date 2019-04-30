@@ -2,7 +2,7 @@
 2. How to use
 3. New in version 2.0
 
-Copyright J.M. Posma 2011-2017
+Copyright J.M. Posma 2011-2019
 
 #####################################################################################################################
 
@@ -53,3 +53,4 @@ It is slightly different from the original published STORM code in that it:
 		the highest intensity unless you specify the driver, and
     3) the plot is different so it can be used on any computer and it has an extra subplot at the top so highly
 		correlated peaks can be easily spotted without having to zoom in and scroll.
+    4) updated to work in 2018b as it does in previous versions
