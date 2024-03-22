@@ -1,16 +1,14 @@
 [![DOI:10.1021/ac302360v](http://img.shields.io/badge/DOI-10.1021/ac302360v-FDC82F.svg)](https://doi.org/10.1021/ac302360v)
 
+# SubseT Optimization by Reference Matching (STORM)
+
 1. General information
 2. How to use
 3. New in version 2.0
 
 Copyright J.M. Posma 2011-2019
 
-#####################################################################################################################
-
-1. General information
-
-Title: SubseT Optimization by Reference Matching (STORM)
+## 1. General information
 
 Summary: A multivariate statistical approach to recover metabolite structure information from multiple (1)H NMR
 		spectra in population sample sets. Subset optimization by reference matching (STORM) was developed to
@@ -34,20 +32,20 @@ Platform dependence: none found
 Software dependence: none found (2012a and up works)
 Toolbox dependence: none (code now works without the Statistics and Parallel Processing Toolboxes)
 
-#####################################################################################################################
-
-2. How to use
+## 2. How to use
 
 To see how the script should be used in MATLAB simply type JMP_STORM and press enter this displays the help file in
 		the command line (to view all options for the variable input arguments):
+```
 >> JMP_STORM
+```
 
 To perform STOCSY using the STORM methodology (where ppmref is replaced by the ppm value of the driver):
+```
 >> JMP_STORM(ppm,X,ppmref)
- 
-#####################################################################################################################
+```
 
-3. New in version 2.0
+## 3. New in version 2.0
 
 It is slightly different from the original published STORM code in that it:
     1) reduces to STOCSY if: only one index is used or the subset is too small,
