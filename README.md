@@ -1,3 +1,5 @@
+[![DOI:10.1021/ac302360v](http://img.shields.io/badge/DOI-10.1021/ac302360v-FDC82F.svg)](https://doi.org/10.1021/ac302360v)
+
 1. General information
 2. How to use
 3. New in version 2.0
